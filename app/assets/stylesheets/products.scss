@@ -144,27 +144,29 @@
 /*============================= end 1.网站头贴 ============================*/
 
 
-/*============================= 2.服务块 ============================*/
-.fw{
+/*============================= 2.课程块 ============================*/
+.kc{
   background-color: #f6f3e1;
-  padding-bottom: 6em;
+  padding-bottom: 3em;
 }
 
-.polaroid2 {
-  width: 100%;
+.polaroid {
   height: 40em;
   padding: 1.8em 1.2em;
+  margin-bottom: 3em;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 
+
   img {
-    width: 22em;
-    position: relative;
+    width: 100%;
+    height: 45%;
   }
 }
 
-/*=============================  end 2. 服务块  ============================*/
+
+/*=============================  end 2. 课程块  ============================*/
 .decor-top3 {
   height: 6em;
   margin-top: -6px;
@@ -182,36 +184,21 @@
   border:2px dashed #dadada;
   margin-top: 10px;
   box-sizing: border-box;
-  border-radius: 5px;
   background-clip: padding-box;
-  padding:0 10px 10px 10px;
   min-height:340px;
+  align: center;
+  padding: 0.8em 0.7em;
+  border-radius: 0 0 2px 2px;
 }
 
 .boxx:hover {
   border:6px solid #525C7A;
 }
 
-.boxx span.boxx-title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300;
+.boxx .boxx-title {
+    color: #666;
+    font-size: 1.2em;
     text-transform: uppercase;
-}
-
-.boxx .boxx-contentx {
-  padding: 5px;
-  border-radius: 0 0 2px 2px;
-  background-clip: padding-box;
-  box-sizing: border-box;
-}
-.boxx .boxx-contentx p {
-  color:#515c66;
-  text-transform:none;
-}
-.boxx .small{
-  width: 400px;
-  // cursor: pointer;
 }
 
 /*======================================= end 3.产品块 =====================================*/
