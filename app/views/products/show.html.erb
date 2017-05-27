@@ -1,23 +1,37 @@
+<!--======================================= 1. 网站头图 =========================================-->
+<section id="my-page" class="intro" >
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-10 col-centered text-center ">
+        <div class="intro-content">
+            <h1>How to brand yourself as an artist</h1>
+             <p>让你的生活变得更有趣</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--================================== end 1. 网站头图 ===================================-->
 
+<hr>
+<h2 class="section-title"><%= @product.category.name %> | <%= @product.title %></h2>
+<hr>
 
-
-<div class="row">
-  <div class="col-md-6">
+<div class="row col-md-5 col-md-offset-1">
     <% if @product.image.present? %>
       <%= image_tag(@product.image.medium.url, class: "thumbnail") %>
     <% else %>
       <%= image_tag("http://placehold.it/400x400&text=No Pic", class: "thumbnail") %>
     <% end %>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-5">
     <h2> <%= @product.title %> </h2>
     <div style="height:100px;">
       <p>
         <%= @product.description %>
       </p>
     </div>
-    <div> 数量 : <%= @product.quantity %> </div>
-    <div class="product-price"> ￥ <%= @product.price %> </div>
+    <p> 数量 : <%= @product.quantity %>   <br> ￥ <%= @product.price %> </p>
     <div class="pull-right">
       <% if @product.quantity.present? && @product.quantity > 0 %>
         <%= link_to("加入购物车", add_to_cart_product_path(@product), :method => :post, :class => "btn btn-danger btn-lg") %>
