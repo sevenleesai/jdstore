@@ -6,10 +6,11 @@
   <thead>
     <tr>
       <th>#</th>
-      <th width="220">Product Pic</th>
-      <th>Name</th>
-      <th>Price</th>
-      <th width="100"> Options </th>
+      <th width="220">产品图</th>
+      <th>分类</th>
+      <th>产品名</th>
+      <th>价格</th>
+      <th width="100"> 操作 </th>
     </tr>
   </thead>
   <tbody>
@@ -26,6 +27,9 @@
               <%= image_tag("http://placehold.it/200x200&text=No Pic", class: "thumbnail") %>
             <% end %>
           <% end %>
+        </td>
+        <td>
+        <%= product.category_id %>
         </td>
         <td>
           <%= product.title %>
