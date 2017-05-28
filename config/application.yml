@@ -15,6 +15,8 @@ production:
  qiniu_secret_key: R_d5jeKsFgWS55OKWdnWke1Yb7BlHNhWVxtjWc38  # 你的 qiniu SecretKey
  qiniu_bucket: jdstore-lohas                                 # 你的 qiniu bucket
  qiniu_bucket_domain: oqhtupa83.bkt.clouddn.com              # 你的 qiniu bucket domain
+ PROJECT_ID:  "144832"
+ PROJECT_KEY:   "44ea384c63ce6ec29d255f0ee99954ba"
 
 
 
@@ -23,3 +25,5 @@ development:
  qiniu_secret_key: R_d5jeKsFgWS55OKWdnWke1Yb7BlHNhWVxtjWc38  # 你的 qiniu SecretKey
  qiniu_bucket: jdstore-lohas                                 # 你的 qiniu bucket
  qiniu_bucket_domain: oqhtupa83.bkt.clouddn.com              # 你的 qiniu bucket domain
+ PROJECT_ID:  "144832"
+ PROJECT_KEY:   "44ea384c63ce6ec29d255f0ee99954ba"
